@@ -47,14 +47,17 @@ ul {
   
   li a:hover {
     background-color: rgb(0, 0, 0);
+   
   }
 
 /* Main Novedades */
 
 .box-novedades{
-    display: flex;
-    justify-content: center;    
-    text-align: center;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
 
 }
 
@@ -62,14 +65,14 @@ ul {
     
     
     width: 70%;
-    
+    text-align: center;
 }
 
 .n-item2{
     
     
     width: 50%;
-    
+    text-align: center;
 }
 
 /* Footer */
@@ -118,6 +121,7 @@ ul {
     background-image: url("../img/imagen-fondo.jpg");
     background-repeat: no-repeat;
     background-size: 1920px 940px;
+    
 }
 
 #body-novedades {
@@ -143,3 +147,68 @@ ul {
     background-repeat: no-repeat;
     background-size: 1920px 940px;
 }
+
+/* Media Queries */
+@media (max-width: 425px) {
+    .red-color {
+        font-size: 11px;
+
+        
+    }
+  }
+  
+  @media (max-width: 768px) {
+    ul {
+        list-style-type: none;
+        padding: 5px;
+        background-color: rgb(26, 26, 26);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Bebas Neue';
+        flex-flow: row wrap;
+      }
+      
+      li a {
+    
+        color: white;
+        padding: 5px 50px;
+        
+        
+      }
+  }
+
+  @media (max-width: 425px) {
+    ul {
+        list-style-type: none;
+        padding: 3px;
+        background-color: rgb(26, 26, 26);
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Bebas Neue';
+        flex-flow: row wrap;
+      }
+      
+      li a {
+    
+        color: white;
+        padding: 3px 15px;
+        
+        
+      }
+  }
+
+  @media (max-width: 425px) {
+    .footer-text {
+        font-size: 15px;  
+    }
+    .redes{
+
+        bottom: 50px;
+        right: 30px;
+
+    
+    }
+  }
+  
