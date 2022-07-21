@@ -26,8 +26,10 @@
 
 /* Navegation Bar */
 
+
 ul {
     list-style-type: none;
+    margin: 0px;
     padding: 10px;
     background-color: rgb(26, 26, 26);
     opacity: 70%;
@@ -35,6 +37,12 @@ ul {
     justify-content: center;
     font-family: 'Bebas Neue';
     flex-flow: row wrap;
+    box-shadow: 0 1px 8px #ddd;
+    position: relative;
+    width: 100%;
+    left: -12px;
+    
+    
   }
   
   li a {
@@ -44,11 +52,14 @@ ul {
     
     
   }
-  
+
+
   li a:hover {
     background-color: rgb(0, 0, 0);
    
   }
+  
+
 
 /* Main Novedades */
 
@@ -57,22 +68,22 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-
+    text-align: center;
 
 }
 
 .n-item1{
     
-    
-    width: 70%;
     text-align: center;
+    width: 70%;
+
 }
 
 .n-item2{
     
-    
-    width: 50%;
     text-align: center;
+    width: 50%;
+
 }
 
 /* Footer */
@@ -80,7 +91,7 @@ ul {
 .box-footer{
     display: flex;
     position: fixed;
-    left: 0;
+    left: 0px;
     bottom: 0px;
     width: 100%;
     background-color: rgb(26, 26, 26);
@@ -160,13 +171,14 @@ ul {
   @media (max-width: 768px) {
     ul {
         list-style-type: none;
+        margin: 0px;
         padding: 5px;
         background-color: rgb(26, 26, 26);
         opacity: 70%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Bebas Neue';
-        flex-flow: row wrap;
+        left: -5px;
+       
+        
+        
       }
       
       li a {
@@ -188,6 +200,8 @@ ul {
         justify-content: center;
         font-family: 'Bebas Neue';
         flex-flow: row wrap;
+        left: -5px;
+        
       }
       
       li a {
@@ -212,3 +226,48 @@ ul {
     }
   }
   
+  @media (max-width: 768px) {
+    .box-novedades{
+    
+        grid-template-columns: 400px;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
+    
+    }
+    .n-item1{
+    
+        text-align: center;
+        width: 70%;
+       
+    }
+    
+    .n-item2{
+        
+        text-align: center;
+        width: 50%;
+    
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .box-novedades{
+    
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
+    
+    }
+    .n-item1{
+    
+        text-align: center;
+        width: 70%;
+       
+    }
+    
+    .n-item2{
+        
+        text-align: center;
+        width: 50%;
+    
+    }
+  }
