@@ -170,15 +170,9 @@ ul {
   
   @media (max-width: 768px) {
     ul {
-        list-style-type: none;
-        margin: 0px;
         padding: 5px;
-        background-color: rgb(26, 26, 26);
-        opacity: 70%;
-        left: -5px;
+        left: -7px;
        
-        
-        
       }
       
       li a {
@@ -192,15 +186,9 @@ ul {
 
   @media (max-width: 425px) {
     ul {
-        list-style-type: none;
         padding: 3px;
-        background-color: rgb(26, 26, 26);
-        opacity: 70%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Bebas Neue';
-        flex-flow: row wrap;
-        left: -5px;
+        left: -14px;
+        width: 105%;
         
       }
       
