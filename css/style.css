@@ -271,3 +271,10 @@ ul {
     
     }
   }
+
+  @media (max-width: 320px) {
+    .discordw{
+        width: 300px;
+    }
+
+  }
