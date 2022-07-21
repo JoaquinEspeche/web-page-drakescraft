@@ -170,9 +170,9 @@ ul {
   
   @media (max-width: 768px) {
     ul {
-        padding: 5px;
-        left: -7px;
-       
+        padding: 6px;
+        left: -8px;
+        width: 101%;
       }
       
       li a {
