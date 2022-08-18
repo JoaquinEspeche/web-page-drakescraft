@@ -11,8 +11,33 @@
 }
 
 .logo {
-    width: 12%;
+    width: 200px;
 }
+
+.redes{
+    
+    position: fixed;
+    bottom: 90px;
+    z-index: 1111;
+}
+
+.discord{
+    width: 50px;
+}
+.instagram{
+    width: 50px;
+}
+
+.footer{
+    background-color: black;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    opacity: 90%;
+   
+    
+}
+
 
 /* Main Text ALL Pages */
 
@@ -20,28 +45,29 @@
     color: #ffffff;
     font-weight: bold;
     text-align: center;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 200px;
     
 }
 
 /* Navegation Bar */
 
-.navbar{
-    
-    background-color: rgb(24, 24, 24) !important;
+.bg-oscuro-custom{
+    background-color: rgb(28, 28, 28);
+    opacity: 90%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
     font-size: 20px;
-  
-    
+    padding: 6px;
+   margin-bottom: 20px;
+   margin-top: 20px;
 }
-.navbar-collapse {
+
     
-    justify-content: center;
-    
-    
-}
-.container-fluid {
-    height: 40px;
-    
+.discordw{
+    margin-bottom: 200px;
+    width: 400px;
+    height: 420px;
 }
 
 
@@ -57,6 +83,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     text-align: center;
+    margin-top: -150px;
 
 }
 
@@ -95,7 +122,7 @@
 #body-inicio {
     background-image: url("../img/imagen-fondo.jpg");
     background-repeat: no-repeat;
-    background-size: 1920px 940px;
+    background-size: 1920px 1500px;
     
 }
 
@@ -108,36 +135,24 @@
 #body-soporte {
     background-image: url("../img/imagen-fondo-soporte.png");
     background-repeat: no-repeat;
-    background-size: 1920px 940px;
+    background-size: 1920px 1500px;
 }
 
 #body-foro {
     background-image: url("../img/imagen-fondo-foro.png");
     background-repeat: no-repeat;
-    background-size: 1920px 940px;
+    background-size: 1920px 1500px;
 }
 
 #body-tienda {
     background-image: url("../img/imagen-fondo-tienda.jpg");
     background-repeat: no-repeat;
-    background-size: 1920px 940px;
+    background-size: 1920px 1500px;
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
-    .text-color{
 
-        margin-top: 300px;
 
-    } }
-@media (max-width: 425px) {
-    .text-color {
-        font-size: 11px;
-        
-        
-    }
-  }
-  
 
   
   @media (max-width: 768px) {
