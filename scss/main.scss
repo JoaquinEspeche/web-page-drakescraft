@@ -1,0 +1,41 @@
+main{
+    // Text
+    .text-color {
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 200px;
+        
+    }
+
+
+}
+
+$redes:(
+    discord: 50px,
+    instagram: 50px
+   );
+
+   @each $red, $width in $redes {
+    .widht--#{$red}{
+        width: $width;
+    }
+    
+   }
+    // Redes
+    .redes{
+    
+        position: fixed;
+        bottom: 90px;
+        z-index: 1111;
+    
+    
+    .discord{
+        width: 50px;
+    }
+    .instagram{
+        width: 50px;
+    }
+
+}

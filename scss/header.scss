@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+
+    // Borra H1
+    .seo{
+        display: none;
+    }
+    // Logo
+    .logo{
+        width: 200px;
+    }
+    // Cambia el fondo de la navbar
+    .bg-oscuro-custom{
+        background-color: rgb(28, 28, 28);
+        opacity: 90%;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 6px;
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+    // Discord Widget 
+    .discordw{
+        margin-bottom: 200px;
+        width: 400px;
+        height: 420px;
+    }
+    @media (max-width: 320px) {
+        .discordw{
+        width: 300px;
+    }
+    }
+
+}
+

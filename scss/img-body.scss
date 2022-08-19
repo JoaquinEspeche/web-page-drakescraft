@@ -1,0 +1,48 @@
+// Fondos de los bodys
+@mixin size ($ancho, $norepeat) {
+    background-size: $ancho;
+    background-repeat: $norepeat;
+   }
+
+.body-size{
+    @include size(1920px 1500px, no-repeat);
+
+}
+
+
+#body-inicio {
+    @extend .body-size;
+    background-image: url("../img/imagen-fondo.jpg");
+    text-align: center;
+
+    
+}
+
+#body-novedades {
+    @extend .body-size;
+    background-image: url("../img/imagen-fondo-novedades.jpg");
+    text-align: center;
+
+}
+
+#body-soporte {
+    @extend .body-size;
+    background-image: url("../img/imagen-fondo-soporte.png");
+    text-align: center;
+
+}
+
+#body-foro {
+    @extend .body-size;
+    background-image: url("../img/imagen-fondo-foro.png");
+    text-align: center;
+
+}
+
+#body-tienda {
+    @extend .body-size;
+    background-image: url("../img/imagen-fondo-tienda.jpg");
+    text-align: center;
+
+}
+

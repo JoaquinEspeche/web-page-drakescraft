@@ -1,0 +1,25 @@
+{
+  "name": "web-page-drakescraft",
+  "version": "1.0.0",
+  "description": "Esta es la pagina web oficial del servidor de Minecraft DrakesCraft",
+  "main": "index.html",
+  "scripts": {
+    "test": "Comando Funcionando",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinEspeche/web-page-drakescraft.git"
+  },
+  "author": "Joaquin Espeche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaquinEspeche/web-page-drakescraft/issues"
+  },
+  "homepage": "https://github.com/JoaquinEspeche/web-page-drakescraft#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
