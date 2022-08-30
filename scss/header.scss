@@ -20,17 +20,17 @@ header{
        margin-bottom: 20px;
        margin-top: 20px;
     }
+
+}
+
     // Discord Widget 
     .discordw{
         margin-bottom: 200px;
         width: 400px;
         height: 420px;
     }
-    @media (max-width: 320px) {
+    @media (max-width: 768px) {
         .discordw{
         width: 300px;
     }
     }
-
-}
-
